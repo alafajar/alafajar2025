@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
-* {
-  font-family: Outfit;
+@theme {
+  --font-ovo: "Ovo", serif;
+  --font-outfit: "Outfit", sans-serif;
 }
