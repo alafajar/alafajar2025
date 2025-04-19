@@ -21,7 +21,7 @@ const Navbar = () => {
           className="w-full"
         />
       </div>
-      <nav className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex justify-between z-50">
+      <nav className="w-full px-5 lg:px-8 xl:px-[8%] py-4 flex justify-between z-50">
         <a href="#top">
           <Image
             src={assets.logo}
