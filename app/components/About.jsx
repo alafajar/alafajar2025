@@ -43,7 +43,7 @@ const About = ({ isDarkMode }) => {
           className="w-64 sm:w-80 rounded-3xl max-w-none"
         >
           <Image
-            src={assets.user_image}
+            src={assets.profile_fajar_img}
             alt="user image"
             className="w-full rounded-3xl"
           />
@@ -55,10 +55,10 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo">
-            I am an experienced Frontend Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth
+            As a Frontend Developer, I'm not your typical tech enthusiast with a
+            poker face - I code with a smile and think with strategy! I
+            specialize in creating stunning, interactive websites while
+            leveraging AI as my coding companion to work smarter, not harder.
           </p>
 
           <motion.ul
@@ -71,7 +71,7 @@ const About = ({ isDarkMode }) => {
               <motion.li
                 key={index}
                 whileInView={{ scale: 1.1 }}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-light-hover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
               >
                 <Image
                   src={isDarkMode ? iconDark : icon}

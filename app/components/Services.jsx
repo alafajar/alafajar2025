@@ -53,7 +53,7 @@ const Services = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
             whileHover={{ scale: 1.02, y: -5 }}
-            className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-light-hover duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+            className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
           >
             <Image src={icon} alt={title} className="w-10" />
             <h3 className="text-lg my-4 text-gray-700 dark:text-white">
@@ -62,10 +62,10 @@ const Services = () => {
             <p className="text-sm text-gray-600 leading-5 dark:text-white/80">
               {description}
             </p>
-            <a href={link} className="flex items-center gap-2 text-sm mt-5">
+            {/* <a href={link} className="flex items-center gap-2 text-sm mt-5">
               Read More{" "}
               <Image src={assets.right_arrow} alt="" className="w-4" />
-            </a>
+            </a> */}
           </motion.div>
         ))}
       </motion.div>

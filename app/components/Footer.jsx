@@ -6,7 +6,11 @@ const Footer = ({ isDarkMode }) => {
   return (
     <div>
       <div className="text-center">
-        <Image src={assets.logo} alt="logo" className="w-36 mx-auto mb-2" />
+        <Image
+          src={assets.logo_alafajar}
+          alt="logo"
+          className="w-36 mx-auto mb-2"
+        />
 
         <div className="w-max flex items-center gap-2 mx-auto">
           <Image

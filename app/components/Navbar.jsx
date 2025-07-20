@@ -39,10 +39,10 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             : ""
         }`}
       >
-        <a href="#top">
+        <a href="#top" className="flex items-center gap-2">
           <Image
-            src={isDarkMode ? assets.logo_dark : assets.logo}
-            className="w-28 cursor-pointer mr-14"
+            src={assets.logo_alafajar}
+            className="w-32 cursor-pointer mr-14"
             alt="icon logo"
           />
         </a>
