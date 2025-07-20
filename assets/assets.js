@@ -84,19 +84,19 @@ export const workData = [
   {
     title: "Pathology Clinic WebApp",
     description: "A WebApp for Pathology Clinic CMS",
-    bgImage: "/work-kalgen-pk.jpeg",
+    bgImage: "./work-kalgen-pk.jpeg",
     link: "https://kalbe-webadmin-pkmikro-lw26bnohfa-et.a.run.app",
   },
   {
     title: "Pathology Analysis WebApp",
     description: "A WebApp for Pathology Analysis CMS",
-    bgImage: "/work-kalgen-pa.jpeg",
+    bgImage: "./work-kalgen-pa.jpeg",
     link: "https://lis.kalgenlab.co.id",
   },
   {
     title: "Anugrah Trans Mandiri",
     description: "A WebApp for Delivery Service CMS",
-    bgImage: "/work-deliver-ship.jpeg",
+    bgImage: "./work-deliver-ship.jpeg",
     link: "#",
   },
 ];
