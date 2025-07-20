@@ -13,15 +13,12 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "Portfolio - Alafajar",
-  description: "Make it Frontend Great Again",
+  description: "Greeting from your loveable developer",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className="scroll-smooth"
-    >
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden bg-white dark:bg-darkTheme text-black dark:text-white`}
       >
