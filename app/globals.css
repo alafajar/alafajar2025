@@ -1,12 +1,32 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-ovo: "Ovo", serif;
-  --font-outfit: "Outfit", sans-serif;
-  --color-light-hover: #fcf4ff;
-  --color-dark-hover: #2a004a;
-  --color-dark-theme: #11001f;
-  --shadow-black: 4px 4px 0 #000;
-  --shadow-white: 4px 4px 0 #fff;
-  --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr));
+@layer base {
+  :root {
+    --font-ovo: "Ovo", serif;
+    --font-outfit: "Outfit", sans-serif;
+    --color-light-hover: #fcf4ff;
+    --color-dark-hover: #2a004a;
+    --color-dark-theme: #11001f;
+    --shadow-black: 4px 4px 0 #000;
+    --shadow-white: 4px 4px 0 #fff;
+    --grid-cols-auto: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* Dark mode styles using CSS custom properties */
+.dark {
+  --color-bg: var(--color-dark-theme);
+  --color-text: #ffffff;
+}
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
